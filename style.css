@@ -3,6 +3,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    
 }
 
 .header {
@@ -13,7 +14,7 @@ body {
 }
 
 .logo {
-    flex: 1;
+    flex: 1 0 auto;
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -93,4 +94,22 @@ blockquote {
     padding: 0;
     font-size: 36px;
     font-style: italic;
+}
+
+.cardholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 80px;
+    gap: 80px;
+    
+}
+
+.card {
+    flex: 1;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+    text-align: center;
 }
